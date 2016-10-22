@@ -1,0 +1,38 @@
+{
+	"name": "lionare/support",
+	"description": "Support component for the lionare framework.",
+	"type": "library",
+	"keywords": [ "lionare", "Support" ],
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Aron Wouters",
+			"email": "lionar@mail.com",
+			"role": "Developer"
+    	}
+	],
+	"require" : {
+		"lionar/agreements": "*",
+		"php": ">=5.5.9"
+  	},
+	"require-dev": {
+		"lionar/testing": "*"
+	},
+	"autoload": {
+    	"psr-4": {
+			"Support\\": "source" 
+    	},
+    	"files": [
+
+    	]
+  	},
+	"autoload-dev": {
+		"psr-4": {
+			"Support\\Tests\\": "tests"
+		}
+	},
+	"config": {
+		"preferred-install": "dist"
+	},
+	"minimum-stability": "dev"
+}
