@@ -23,7 +23,7 @@
 			"Support\\": "source" 
     	},
     	"files": [
-
+    		"source/helpers.php"
     	]
   	},
 	"autoload-dev": {
