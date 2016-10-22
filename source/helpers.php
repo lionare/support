@@ -9,3 +9,8 @@ function configuration_path ( )
 {
 	return base_path ( ) . '/configuration';
 }
+
+function resource_path ( )
+{
+	return base_path ( ) . '/resources';
+}
