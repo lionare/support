@@ -23,7 +23,8 @@
 			"Support\\": "source" 
     	},
     	"files": [
-    		"source/helpers.php"
+    		"source/helpers.php",
+    		"source/readability.php"
     	]
   	},
 	"autoload-dev": {
