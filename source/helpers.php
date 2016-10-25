@@ -15,6 +15,11 @@ function resource_path ( )
 	return base_path ( ) . '/resources';
 }
 
+function compiled_path ( )
+{
+	return base_path ( ) . '/storage/compiled';
+}
+
 function cache_path ( )
 {
 	return base_path ( ) . '/storage/cache';
