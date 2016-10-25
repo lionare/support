@@ -21,10 +21,7 @@
 	"autoload": {
     	"psr-4": {
 			"Support\\": "source" 
-    	},
-    	"files": [
-    		"source/helpers.php"
-    	]
+    	}
   	},
 	"autoload-dev": {
 		"psr-4": {

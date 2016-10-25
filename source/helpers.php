@@ -14,3 +14,8 @@ function resource_path ( )
 {
 	return base_path ( ) . '/resources';
 }
+
+function cache_path ( )
+{
+	return base_path ( ) . '/storage/cache';
+}
